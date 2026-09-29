@@ -163,7 +163,12 @@ export const content: Record<Lang, Content> = {
           tag: 'Projeto próprio',
           description:
             'Plataforma para a comunidade competitiva de Pokémon (Champions): analise Pokémon por estatísticas reais de torneio, monte seu próprio time ou copie um dos times compartilhados. Busca por Pokémon, arquétipo ou criador e uma Pokédex com stats, movesets, itens e naturezas ranqueados por uso.',
-          highlights: ['Code splitting por rota e dados estruturados schema.org para SEO'],
+          highlights: [
+            'Banco de times com código de compartilhamento para copiar, buscável por Pokémon, arquétipo ou criador',
+            'Pokédex com stats, movesets, itens e naturezas ranqueados por uso real em torneios',
+            'Times enviados pela própria comunidade, e acompanhamento das mudanças de regulamento/roster do formato',
+            'Code splitting por rota e dados estruturados schema.org para SEO',
+          ],
           stack: ['React 19', 'Vite', 'Tailwind', 'TanStack Query', 'Vercel'],
           link: { label: 'replicadex.com.br', href: 'https://replicadex.com.br' },
           demo: '/demos/replicadex.webm',
@@ -343,7 +348,12 @@ export const content: Record<Lang, Content> = {
           tag: 'Own project',
           description:
             'A platform for the competitive Pokémon community (Champions): analyze Pokémon with real tournament stats, build your own team or copy a shared one. Search by Pokémon, archetype or creator, plus a Pokédex with stats, movesets, items and natures ranked by usage.',
-          highlights: ['Route-based code splitting and schema.org structured data for SEO'],
+          highlights: [
+            'Bank of shared teams with a copyable share code, searchable by Pokémon, archetype or creator',
+            'Pokédex with stats, movesets, items and natures ranked by real tournament usage',
+            'Community-submitted teams, plus tracking of the format’s regulation/roster changes',
+            'Route-based code splitting and schema.org structured data for SEO',
+          ],
           stack: ['React 19', 'Vite', 'Tailwind', 'TanStack Query', 'Vercel'],
           link: { label: 'replicadex.com.br', href: 'https://replicadex.com.br' },
           demo: '/demos/replicadex.webm',
